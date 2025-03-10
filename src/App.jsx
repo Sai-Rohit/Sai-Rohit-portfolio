@@ -32,7 +32,7 @@ function App() {
           📍 Based in Dublin, Ireland | 📍 Bangalore, India | 📞 +353-892057457 | 📞 +91-8939439744 | 📧 sairohit33@gmail.com
         </p>
         <p>
-          🔗 Visit My Portfolio: <a href="https://sai-rohit.github.io/Sai-Rohit-portfolio" target="_blank" rel="noopener noreferrer">https://sai-rohit.github.io/Sai-Rohit-portfolio"</a>
+          🔗 Visit My Portfolio: <a href="https://Sai-Rohit.github.io/Sai-Rohit-portfolio" target="_blank" rel="noopener noreferrer">https://Sai-Rohit.github.io/Sai-Rohit-portfolio"</a>
         </p>
       </section>
 
