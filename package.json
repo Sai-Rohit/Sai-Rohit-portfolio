@@ -6,9 +6,9 @@
   "homepage": "https://sai-rohit.github.io/Sai-Rohit-portfolio",
   "scripts": {
     "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
