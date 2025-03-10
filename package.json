@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sai-Rohit.github.io/Sai-Rohit-portfolio",
+  "homepage": "https://sai-rohit.github.io/Sai-Rohit-portfolio",
   "scripts": {
     "dev": "vite",
   "build": "vite build",
