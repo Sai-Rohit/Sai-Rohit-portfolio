@@ -1,6 +1,8 @@
 // App.jsx
 import React from 'react';
 import './App.css';
+import bgImage from './assets/captain-america.jpg';
+
 
 function App() {
   return (
