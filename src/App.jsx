@@ -1,15 +1,21 @@
 // App.jsx
+// App.jsx
 import React from 'react';
 import './App.css';
 import bgImage from './assets/captain-america.jpg';
 
-
 function App() {
   return (
-    <div className="app-container" 
-    style={{ backgroundImage: `url(${captain-america.jpg})` }}>
+    <div
+      className="app-container"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <div className="resume-download">
-      <a href={`${import.meta.env.BASE_URL}SAI%20ROHIT%20VOLETI%20CV.pdf`} download className="download-btn">
+        <a
+          href={`${import.meta.env.BASE_URL}SAI%20ROHIT%20VOLETI%20CV.pdf`}
+          download
+          className="download-btn"
+        >
           📄 Download My Resume
         </a>
       </div>
@@ -20,18 +26,15 @@ function App() {
           Hello! I’m <strong>Sai Rohit Voleti</strong>, a passionate and enthusiastic Full Stack Developer with over 2 years of experience in software development and testing.
           I’ve worked on enterprise front-end applications using <strong>Java, C# .NET, Spring Boot</strong> and modern frameworks like <strong>React JS</strong> and <strong>Angular</strong>.
         </p>
-
         <p>
           I have strong experience building web applications, working with APIs and Microservices, and developing both front-end and back-end features.
           I enjoy writing clean, scalable code and implementing responsive user interfaces.
           I’ve also worked in Agile environments, collaborated closely with cross-functional teams, and gained hands-on experience in CI/CD, automation testing (Selenium, TestNG), and Git version control.
         </p>
-
         <p>
           My goal is to build impactful and user-centric applications while constantly learning and growing as a developer.
           When I'm not coding, I enjoy exploring new tech tools and refining my coding skills.
         </p>
-
         <p>
           📍 Based in Dublin, Ireland | 📍 Bangalore, India | 📞 +353-892057457 | 📞 +91-8939439744 | 📧 sairohit33@gmail.com
         </p>
