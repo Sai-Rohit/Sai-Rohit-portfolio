@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import bgImage from '/captain-america.jpg';
+
 
 function App() {
   return (
