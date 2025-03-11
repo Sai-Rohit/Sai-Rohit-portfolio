@@ -6,7 +6,8 @@ import bgImage from './assets/captain-america.jpg';
 
 function App() {
   return (
-    <div className="app-container" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}captain-america.jpg)` }}>
+    <div className="app-container" 
+    style={{ backgroundImage: `url(${captain-america.jpg})` }}>
       <div className="resume-download">
       <a href={`${import.meta.env.BASE_URL}SAI%20ROHIT%20VOLETI%20CV.pdf`} download className="download-btn">
           📄 Download My Resume
