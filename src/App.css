@@ -1,28 +1,66 @@
-@media screen and (max-width: 768px) {
-  .content-wrapper {
-    padding: 1rem;
-    border-radius: 12px;
-  }
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
 
-  .resume-download a {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
+.app-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .about-section p,
-  .projects-section li,
-  .skills-section p,
-  .footer p {
-    font-size: 0.95rem;
-    line-height: 1.5;
-  }
+.resume-download {
+  margin-bottom: 2rem;
+}
 
-  .projects-section ul {
-    padding-left: 1rem;
-  }
+.download-btn {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
 
-  .footer a {
-    display: inline-block;
-    margin: 0.5rem 0;
-  }
+.download-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border: 2px solid #000;
+}
+
+.about-section {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }

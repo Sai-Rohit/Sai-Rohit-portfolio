@@ -9,16 +9,15 @@ function App() {
         backgroundImage: `url(${import.meta.env.BASE_URL}captain-america.jpg)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
+        backgroundPosition: 'center',
         minHeight: '100vh',
-        width: '100vw',
+        width: '100%',
         padding: '1rem',
         boxSizing: 'border-box',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        overflowX: 'hidden'
       }}
     >
       <div className="content-wrapper" style={{ maxWidth: '1200px', width: '100%', backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: '2rem', borderRadius: '16px', color: '#fff' }}>
@@ -60,7 +59,6 @@ function App() {
             <li><strong>Your Well-Being App:</strong> A wellness app with Bronze, Silver, and Gold memberships for services like doctor consultations, yoga, Zumba, and nutrition using React and design patterns.</li>
             <li><strong>Automated Testing Suite:</strong> Created test scripts in Python using Selenium for a real-time booking engine during my internship at Wise Tech Source.</li>
             <li><strong>CI/CD Integration:</strong> Deployed automated builds using Jenkins and AWS, improved testing workflow.</li>
-            <li><strong>React To-Do List App:</strong> A task management app with features like task filters, counters, timestamps, and accessibility support. Built using React with responsive and user-friendly UI enhancements.</li>
           </ul>
         </section>
 
