@@ -5,9 +5,10 @@ import './App.css';
 function App() {
   return (
     <div
-      className="app-container"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    >
+  className="app-container"
+  style={{ backgroundImage: `url('/captain-america.jpg)` }}
+>
+
       <div className="resume-download">
         <a
           href={`${import.meta.env.BASE_URL}SAI%20ROHIT%20VOLETI%20CV.pdf`}
