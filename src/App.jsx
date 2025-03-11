@@ -1,11 +1,12 @@
+// App.jsx
 import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="app-container bg-cover bg-center min-h-screen bg-[url('/captain-america.png')]">
+    <div className="app-container" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}captain-america.jpg)` }}>
       <div className="resume-download">
-        <a href="/SAI ROHIT VOLETI CV.pdf" download className="download-btn">
+      <a href={`${import.meta.env.BASE_URL}SAI%20ROHIT%20VOLETI%20CV.pdf`} download className="download-btn">
           📄 Download My Resume
         </a>
       </div>
@@ -32,7 +33,7 @@ function App() {
           📍 Based in Dublin, Ireland | 📍 Bangalore, India | 📞 +353-892057457 | 📞 +91-8939439744 | 📧 sairohit33@gmail.com
         </p>
         <p>
-          🔗 Visit My Portfolio: <a href="https://Sai-Rohit.github.io/Sai-Rohit-portfolio" target="_blank" rel="noopener noreferrer">https://Sai-Rohit.github.io/Sai-Rohit-portfolio"</a>
+          🔗 Visit My Portfolio: <a href="https://Sai-Rohit.github.io/Sai-Rohit-portfolio" target="_blank" rel="noopener noreferrer">https://Sai-Rohit.github.io/Sai-Rohit-portfolio</a>
         </p>
       </section>
 
