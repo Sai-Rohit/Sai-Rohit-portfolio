@@ -6,7 +6,7 @@ function App() {
   return (
     <div
   className="app-container"
-  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}captain%20america.jpg)` }}
+  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}captain-america.jpg)` }}
 
 >
 
