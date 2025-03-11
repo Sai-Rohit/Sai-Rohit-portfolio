@@ -56,8 +56,8 @@ function App() {
         <p><strong>Languages:</strong> Java, C#, JavaScript, Python</p>
         <p><strong>Frameworks:</strong> Spring Boot, React JS, Angular</p>
         <p><strong>Tools:</strong> Git, Jenkins, Selenium, TestNG, Postman</p>
-        <p><strong>Databases:</strong> MySQL, MongoDB</p>
-        <p><strong>Cloud:</strong> AWS, Google Cloud Platform (GCP)</p>
+        <p><strong>Databases:</strong> MySQL, MongoDB, MS SQL SERVER</p>
+        <p><strong>Cloud:</strong>Google Cloud Platform (GCP)</p>
       </section>
 
       <footer className="footer">
